@@ -4,7 +4,7 @@ scores = [100, 90, 85, 100, 0]
 
 iterate(scores)
 
-names = ["Amy", "Bill", "Carol", "Dave", "Emily"]
+names = ["Evan", "Bill", "Carol", "Dave", "Emily"]
 
 iterate(names)
 
