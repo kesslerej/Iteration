@@ -1,6 +1,6 @@
 from iteration import *
 
-scores = [100, 90, 85, 100, 0]
+scores = [100, 10, 85, 100, 0]
 
 iterate(scores)
 
