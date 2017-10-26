@@ -63,7 +63,7 @@ def max(numbers):
 
 
 def average(scores):
-	print (sum(scores) / len(scores))
+	print (float(sum(scores)) / len(scores))
 
 def drop(scores):
 	current_min = scores[0]
@@ -71,4 +71,9 @@ def drop(scores):
 		if s < current_min:
 			current_min = s
 
-	return current_min
+	current_min2 = scores[2]
+	for s in scores:
+		if s < current_min2 and not current_min:
+			current_min2 = s
+
+	return (float(sum(scores)-current_min-current_min2) / (len(scores) - 2))
