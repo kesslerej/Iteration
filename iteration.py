@@ -77,3 +77,17 @@ def drop(scores):
 			current_min2 = s
 
 	return (float(sum(scores)-current_min-current_min2) / (len(scores) - 2))
+
+def fizz_buzz(numbers):
+	for n in numbers:
+		if n % 3 == 0 and n % 5 == 0:
+			return 'FizzBuzz'
+		elif n % 3 == 0:
+			return 'Fizz'
+		elif n % 5 == 0:
+			return 'Buzz'
+		else:
+			return 'Bazz'
+
+
+	

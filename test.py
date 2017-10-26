@@ -25,3 +25,7 @@ print max(scores)
 average(scores)
 
 print drop(scores)
+
+numbers = [5, 300, 4, 6]
+
+print fizz_buzz(numbers)
