@@ -81,13 +81,14 @@ def drop(scores):
 def fizz_buzz(numbers):
 	for n in numbers:
 		if n % 3 == 0 and n % 5 == 0:
-			return 'FizzBuzz'
+			n = 'FizzBuzz'
 		elif n % 3 == 0:
-			return 'Fizz'
+			n = 'Fizz'
 		elif n % 5 == 0:
-			return 'Buzz'
+			n = 'Buzz'
 		else:
-			return 'Bazz'
+			n = 'Bazz'
 
+	return numbers
 
 	
